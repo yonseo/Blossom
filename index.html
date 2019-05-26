@@ -1,0 +1,770 @@
+<html>
+  <head>
+    <title>Blossom</title>
+    <meta content="">
+
+    <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/gardenia.css" rel="stylesheet" id="bootstrap-css">
+    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/js/jQuery Core 1.12.4.js"></script>
+    <script src="assets/js/Chart.bundle.min.js"></script>
+    <script src="assets/js/Chart.bundle.js"></script>
+    <script src="assets/js/utils.js"></script>
+
+      <!-- QUILL EDITOR STYLE -->
+    <script src="assets/editor/quill-develop/quill.js"></script>
+    <link href="assets/editor/quill-develop/quill.snow.css" rel="stylesheet">
+
+    <link href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+<div class="wrapper">
+
+
+  <!-- ================================= CUT HERE [SIDEBAR_START]=====================================  -->
+
+<div class="wrapper-sidebar">
+
+<div class="sidebar" id="sidebar-mobile">
+  <!-- close button ONLY DISPLAY ON SIDEBAR -->
+  <div id="sidebar-button2"><i class="fa fa-times-circle-o fa-2x" aria-hidden="true"></i></div>
+  <!-- SIDEBAR LOGO -->
+<div class="logo"><img src="assets/img/logo2.png" class="img-responsive" style="width: 120px;"></div>
+  <!-- SIDEBAR AVATAR -->
+
+
+<section>
+
+  <ul>
+
+    </li>
+    <a class="menu-link" href="#" itemprop="url"><i class="fa fa-home fa-lg" aria-hidden="true"></i>  Home</a>
+      <ul class="sub-menu" style="display:block;">
+        <a href="index.html"><li><i class="fa fa-circle-o" aria-hidden="true"></i> Dashboard</li></a>
+        <a href="editor.html" itemprop="url"><li><i class="fa fa-circle-o" aria-hidden="true"></i> Editor </li></a>
+      </ul>
+   </li>
+   <a class="menu-link" href="#" itemprop="url"><i class="fa fa-file fa-lg" aria-hidden="true"></i>  Pages</li></a>
+     <ul class="sub-menu">
+        <a href="profile.html" itemprop="url"><li><i class="fa fa-circle-o" aria-hidden="true"></i> Profile </li></a>
+       <a href="login.html"><li><i class="fa fa-circle-o" aria-hidden="true"></i> Login/Register</li></a>
+       <a href="email.html" itemprop="url"><li><i class="fa fa-circle-o" aria-hidden="true"></i> Email </li></a>
+       <a href="sendemail.html" itemprop="url"><li><i class="fa fa-circle-o" aria-hidden="true"></i> Send Email </li></a>
+       <a href="reademail.html" itemprop="url"><li><i class="fa fa-circle-o" aria-hidden="true"></i> View Email </li></a>
+       <a href="card.html" itemprop="url"><li><i class="fa fa-circle-o" aria-hidden="true"></i> Card </li></a>
+     </ul>
+  </li>
+   <a class="menu-link" href="#" itemprop="url"><i class="fa fa-plus-square-o fa-lg" aria-hidden="true"></i> Form</a>
+     <ul class="sub-menu">
+       <a href="form.html"><li><i class="fa fa-circle-o" aria-hidden="true"></i> Forms</li></a>
+     </ul>
+  </li>
+  <a class="menu-link" href="#" itemprop="url"><i class="fa fa-table fa-lg" aria-hidden="true"></i>  Table</a>
+    <ul class="sub-menu">
+      <a href="table.html"><li><i class="fa fa-circle-o" aria-hidden="true"></i> Tables</li></a>
+    </ul>
+ </li>
+ <a class="menu-link" href="#" itemprop="url"><i class="fa fa-dot-circle-o fa-lg" aria-hidden="true"></i> UI Elements</a>
+   <ul class="sub-menu">
+     <a href="button.html"><li><i class="fa fa-circle-o" aria-hidden="true"></i> Buttons</li></a>
+     <a href="tab.html" itemprop="url"><li><i class="fa fa-circle-o" aria-hidden="true"></i> Tabs </li></a>
+   </ul>
+</li>
+<hr/>
+<a class="menu-link" href="#" itemprop="url"><i class="fa fa-pencil fa-lg" aria-hidden="true"></i> Blog</a>
+  <ul class="sub-menu">
+    <a href="blog.html"><li><i class="fa fa-circle-o" aria-hidden="true"></i> Blog</li></a>
+    <a href="article.html" itemprop="url"><li><i class="fa fa-circle-o" aria-hidden="true"></i> Article </li></a>
+    <a href="newpost.html" itemprop="url"><li><i class="fa fa-circle-o" aria-hidden="true"></i> New Post </li></a>
+  </ul>
+</li>
+<a class="menu-link" href="#" itemprop="url"><i class="fa fa-forumbee" aria-hidden="true"></i> Forum</a>
+  <ul class="sub-menu">
+    <a href="forum.html"><li><i class="fa fa-circle-o" aria-hidden="true"></i> Forum Home</li></a>
+    <a href="forumpost.html" itemprop="url"><li><i class="fa fa-circle-o" aria-hidden="true"></i> Forum Post </li></a>
+    <a href="newpost.html" itemprop="url"><li><i class="fa fa-circle-o" aria-hidden="true"></i> New Post </li></a>
+  </ul>
+</li>
+<hr/>
+<a class="menu-link" href="#" itemprop="url"><i class="fa fa-file-text-o fa-lg" aria-hidden="true"></i> Documentation</a>
+  <ul class="sub-menu">
+    <a href="credit.html"><li><i class="fa fa-circle-o" aria-hidden="true"></i> Credits</li></a>
+    <a href="doc.html"><li><i class="fa fa-circle-o" aria-hidden="true"></i> Documentation</li></a>
+  </ul>
+</li>
+
+</section>
+
+</div>
+
+</div>
+  <!-- ================================= CUT HERE [SIDEBAR_END]=====================================  -->
+
+
+<div class="wrapper-content">
+  <div class="row">
+
+        <header>
+
+          <div class="block">
+        <a href=""> <i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-pencil-square-o fa-lg" aria-hidden="true"></i></a>
+          <a href=""><i class="fa fa-bell-o fa-lg" aria-hidden="true"></i></a>
+          <a href=""><i class="fa fa-cog fa-lg" aria-hidden="true"></i></a>
+          </div>
+
+          <div class="top-nav">
+              <div id="sidebar-button"><i class="fa fa-bars" aria-hidden="true"></i></div>
+              <input type="text" placeholder="Search" class="form-control search">
+          </div>
+
+          <div class="bottom-nav">
+              <div class="right">
+              <a class="btn btn-primary btn-sm" href="#" role="button" ><i class="fa fa-plus-circle" aria-hidden="true"></i> Create New</a>
+
+            </div>
+              <breadrumb>Home > Blog > Posts</breadrumb>
+          </div>
+
+        </header>
+
+          <div class="col-md-12"><h3>DASHBOARD</h3></div>
+    <!-- ================================= CUT HERE [INFO_START]=====================================  -->
+
+    <div class="col-md-3">
+      <div class="info_blue">
+         Visitors
+         <h2>7,342,003</h2>
+          <div class="progress" style="height: 2px;">
+            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <h6>Completed 40%</h6>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="info_green">
+         Tasks
+         <h2>2,352,065</h2>
+          <div class="progress" style="height: 2px;">
+            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <h6>Completed 40%</h6>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="info_purple">
+         Blogs
+         <h2>5,773,790</h2>
+          <div class="progress" style="height: 2px;">
+            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <h6>Completed 40%</h6>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="info_pink">
+         Comments
+         <h2>1,495,300</h2>
+          <div class="progress" style="height: 2px;">
+            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <h6>Completed 40%</h6>
+      </div>
+    </div>
+    <!-- ================================= CUT HERE [INFO_END]=====================================  -->
+
+        <!-- ================================= CUT HERE [CHART_START]=====================================  -->
+
+<div class="col-md-8">
+
+<div class="row">
+   <div class="col-md-8">
+     <div class="card-dark">
+          <h6>Visitor Count</h6>
+          <p>Current visitors</p>
+      <canvas id="myChart" width="400" height="200"></canvas>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card-dark">
+      <h4>13,499,735 </h4>
+      <p>Current visitors</p>
+    <canvas id="doughnut-chart" width="600" height="450"></canvas>
+      </div>
+   </div>
+</div>
+
+</div>
+
+  <div class="col-md-4">
+<div class="card">
+<canvas id="canvas" style="display: block; width: 624px; height: 500px;"></canvas>
+</div>
+</div>
+
+
+        <!-- ================================= CUT HERE [CHART_END]=====================================  -->
+
+    <!-- ================================= CUT HERE [CARD_START]=====================================  -->
+<div class="col-md-4">
+
+
+  <div class="card-header">
+    <div class="card-buttons">
+    <a href="" style="color: #6398ff;"><i class="fa fa-refresh" aria-hidden="true"></i></a>
+    <a href="" style="color: #3cba9f;"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+    <a href="" style="color: #63d1ff;"><i class="fa fa-minus-circle" aria-hidden="true"></i></a>
+    <a href="" style="color: #ff5757;"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+    </div>
+        <h6>Flat Card</h6>
+  </div>
+
+  <div class="card-flat">
+  <table class="table">
+  <thead class="thead">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+</div>
+    <!-- ================================= CUT HERE [CARD_END]=====================================  -->
+
+    <!-- ================================= CUT HERE [CARD_START]=====================================  -->
+<div class="col-md-4">
+
+  <div class="card-header">
+    <div class="card-buttons">
+    <a href="" style="color: #6398ff;"><i class="fa fa-refresh" aria-hidden="true"></i></a>
+    <a href="" style="color: #3cba9f;"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+    <a href="" style="color: #63d1ff;"><i class="fa fa-minus-circle" aria-hidden="true"></i></a>
+    <a href="" style="color: #ff5757;"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+    </div>
+        <h6> Sharp Card</h6>
+  </div>
+
+  <div class="card-sharp">
+
+    <table class="table">
+    <thead class="thead">
+      <tr>
+        <th scope="col"><input type="checkbox"></th>
+        <th scope="col">Todo</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th><input type="checkbox"></th>
+        <td>Complete Invoice</td>
+      </tr>
+      <tr>
+        <th><input type="checkbox"></th>
+        <td>Fix Bugs</td>
+      </tr>
+      <tr>
+        <th><input type="checkbox"></th>
+        <td>Add Request</td>
+      </tr>
+      <tr>
+        <th><input type="checkbox"></th>
+        <td>Make Template</td>
+      </tr>
+      <tr>
+        <th><input type="checkbox"></th>
+        <td>Create Form</td>
+      </tr>
+      <tr>
+        <th><input type="checkbox"></th>
+        <td>Implement Chart</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</div>
+    <!-- ================================= CUT HERE [CARD_END]=====================================  -->
+        <!-- ================================= CUT HERE [CARD_START]=====================================  -->
+<div class="col-md-4">
+
+  <div class="card-sharp">
+    <table class="table table-striped">
+      <h6>New Customers List</h6>
+    <hr/>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+
+</div>
+    <!-- ================================= CUT HERE [CARD_END]=====================================  -->
+
+    <!-- ================================= CUT HERE [CARD_START]=====================================  -->
+<div class="col-md-6">
+
+  <div class="card-header">
+    <div class="card-buttons">
+    <a href="" style="color: #6398ff;"><i class="fa fa-refresh" aria-hidden="true"></i></a>
+    <a href="" style="color: #3cba9f;"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+    <a href="" style="color: #63d1ff;"><i class="fa fa-minus-circle" aria-hidden="true"></i></a>
+    <a href="" style="color: #ff5757;"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+    </div>
+        <h6>User Card</h6>
+  </div>
+
+  <div class="card">
+
+    <div class="row">
+        <div class="col-md-3"><div class="card-user"><div class="overflow-hidden"> <img src="assets/img/faces/1.jpg" class="fade-in"></div> <p>Cibo Celle</br> Director</p></div></div>
+        <div class="col-md-3"><div class="card-user""><div class="overflow-hidden"> <img src="assets/img/faces/2.jpg" class="fade-in"></div> <p>Cibo Celle</br> Director</p></div></div>
+        <div class="col-md-3"><div class="card-user""><div class="overflow-hidden"> <img src="assets/img/faces/3.jpg" class="fade-in"></div> <p>Cibo Celle</br> Director</p></div></div>
+        <div class="col-md-3"><div class="card-user""><div class="overflow-hidden"> <img src="assets/img/faces/4.jpg" class="fade-in"></div> <p>Cibo Celle</br> Director</p></div></div>
+
+        <div class="col-md-3"><div class="card-user""><div class="overflow-hidden"> <img src="assets/img/faces/5.jpg" class="fade-in"></div> <p>Cibo Celle</br> Director</p></div></div>
+        <div class="col-md-3"><div class="card-user""><div class="overflow-hidden"> <img src="assets/img/faces/6.jpg" class="fade-in"></div> <p>Cibo Celle</br> Director</p></div></div>
+        <div class="col-md-3"><div class="card-user""><div class="overflow-hidden"> <img src="assets/img/faces/7.jpg" class="fade-in"></div> <p>Cibo Celle</br> Director</p></div></div>
+        <div class="col-md-3"><div class="card-user""><div class="overflow-hidden"> <img src="assets/img/faces/8.jpg" class="fade-in"></div> <p>Cibo Celle</br> Director</p></div></div>
+
+    </div>
+  </div>
+</div>
+    <!-- ================================= CUT HERE [CARD_END]=====================================  -->
+
+
+    <!-- ================================= CUT HERE [CARD_START]=====================================  -->
+<div class="col-md-6">
+
+  <div class="card-sharp">
+    <table class="table table-primary">
+      <h6>Blog Table Contextual</h6>
+      <p>Add <b>.table-primary</b> for a Contextual table</p>
+      <hr/>
+      <thead>
+        <tr class="table-active">
+          <th scope="col">class</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+        <tr class="table-primary">
+          <th scope="col">primary</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+        <tr class="table-secondary">
+          <th scope="col">secondary</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+        <tr class="table-success">
+          <th scope="col">success</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+        <tr class="table-danger">
+          <th scope="col">danger</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+        <tr class="table-warning">
+          <th scope="col">warning</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+        <tr class="table-info">
+          <th scope="col">info</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+        <tr class="table-light">
+          <th scope="col">light</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+        <tr class="table-dark">
+          <th scope="col">dark</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+
+      </thead>
+
+    </table>
+  </div>
+
+</div>
+    <!-- ================================= CUT HERE [CARD_END]=====================================  -->
+    <footer>
+      <i class="fa fa-copyright" aria-hidden="true"></i> Copyright 2018 <a href="https://taiyaki.io">taiyaki.io</a> - All Rights Reserved
+    </footer>
+
+</div> <!-- ROW -->
+
+</div> <!-- WRAPPER -->
+    <!-- ================================= END CONENT ====================================  -->
+<script>
+new Chart(document.getElementById("doughnut-chart"), {
+    type: 'doughnut',
+    data: {
+    options: {
+      title: {
+        display: true,
+        text: 'Predicted world population (millions) in 2050'
+      }
+    },
+    labels: ["New", "Return", "Active"],
+    datasets: [
+      {
+        label: "Population (millions)",
+        backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+        data: [235,784,433]
+      }
+    ]
+  },
+});
+</script>
+
+
+<script>
+
+var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+		var config = {
+			type: 'line',
+			data: {
+				labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+				datasets: [{
+					label: 'My First dataset',
+					backgroundColor: window.chartColors.red,
+					borderColor: window.chartColors.red,
+					data: [
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor()
+					],
+					fill: false,
+				}, {
+					label: 'My Second dataset',
+					fill: false,
+					backgroundColor: window.chartColors.blue,
+					borderColor: window.chartColors.blue,
+					data: [
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor()
+					],
+				}]
+			},
+			options: {
+				responsive: true,
+				title: {
+					display: true,
+					text: 'Chart.js Line Chart'
+				},
+				tooltips: {
+					mode: 'index',
+					intersect: false,
+				},
+				hover: {
+					mode: 'nearest',
+					intersect: true
+				},
+				scales: {
+					xAxes: [{
+						display: true,
+						scaleLabel: {
+							display: true,
+							labelString: 'Month'
+						}
+					}],
+					yAxes: [{
+						display: true,
+						scaleLabel: {
+							display: true,
+							labelString: 'Value'
+						}
+					}]
+				}
+			}
+		};
+		window.onload = function() {
+			var ctx = document.getElementById('canvas').getContext('2d');
+			window.myLine = new Chart(ctx, config);
+		};
+		document.getElementById('randomizeData').addEventListener('click', function() {
+			config.data.datasets.forEach(function(dataset) {
+				dataset.data = dataset.data.map(function() {
+					return randomScalingFactor();
+				});
+			});
+			window.myLine.update();
+		});
+		var colorNames = Object.keys(window.chartColors);
+		document.getElementById('addDataset').addEventListener('click', function() {
+			var colorName = colorNames[config.data.datasets.length % colorNames.length];
+			var newColor = window.chartColors[colorName];
+			var newDataset = {
+				label: 'Dataset ' + config.data.datasets.length,
+				backgroundColor: newColor,
+				borderColor: newColor,
+				data: [],
+				fill: false
+			};
+			for (var index = 0; index < config.data.labels.length; ++index) {
+				newDataset.data.push(randomScalingFactor());
+			}
+			config.data.datasets.push(newDataset);
+			window.myLine.update();
+		});
+		document.getElementById('addData').addEventListener('click', function() {
+			if (config.data.datasets.length > 0) {
+				var month = MONTHS[config.data.labels.length % MONTHS.length];
+				config.data.labels.push(month);
+				config.data.datasets.forEach(function(dataset) {
+					dataset.data.push(randomScalingFactor());
+				});
+				window.myLine.update();
+			}
+		});
+		document.getElementById('removeDataset').addEventListener('click', function() {
+			config.data.datasets.splice(0, 1);
+			window.myLine.update();
+		});
+		document.getElementById('removeData').addEventListener('click', function() {
+			config.data.labels.splice(-1, 1); // remove the label first
+			config.data.datasets.forEach(function(dataset) {
+				dataset.data.pop();
+			});
+			window.myLine.update();
+		});
+</script>
+
+
+<script>
+var ctx = document.getElementById("myChart").getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange", "Orange"],
+        datasets: [{
+            label: '# of Visitors',
+            data: [12, 19, 3, 9, 15, 5, 9],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.8)',
+                'rgba(54, 162, 235, 0.8)',
+                'rgba(255, 206, 86, 0.8)',
+                'rgba(75, 192, 192, 0.8)',
+                'rgba(153, 102, 255, 0.8)',
+                'rgba(255, 159, 64, 0.8)',
+                'rgba(255, 159, 64, 0.8)'
+            ],
+            borderColor: [
+                'rgba(255,99,132,1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)',
+                'rgba(255, 159, 64, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+
+            xAxes: [{
+              display: true,
+              gridLines: {
+                color: "#7e8692"
+              },
+
+                ticks: {
+                    beginAtZero:true
+                }
+            }],
+            yAxes: [{
+              display: true,
+              gridLines: {
+                color: "#7e8692"
+              }
+            }],
+        }
+    }
+});
+</script>
+
+
+<!-- =========================================== DROPDOWN TOGGLE ==========================================================-->
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<!--========================================== Initialize Quill editor =====================================-->
+<script>
+  var quill = new Quill('#editor', {
+    theme: 'snow'
+  });
+</script>
+<!-- =========================================== SIDEBAR NAV TREE ==========================================================-->
+    <script>
+    $(document).ready(function() {
+      var
+      menu_link = $('.menu-link'),
+      sub_menu = $('.sub-menu');
+
+      menu_link.on('click', function() {
+
+        if (!$(this).hasClass('active')) {
+          sub_menu.slideUp(300,'swing');
+            $(this).next().stop(true,true).slideToggle(300);
+          menu_link.removeClass('active');
+            $(this).addClass('active');
+        }
+        else {
+          sub_menu.slideUp(300);
+          menu_link.removeClass('active');
+        }
+
+      });
+
+    });
+
+    </script>
+<!-- =========================================== SIDEBAR TOGGLE ==========================================================-->
+  <script>
+  var $sidebar = $('.wrapper-sidebar');
+  var $content = $('.wrapper-content');
+
+    $button = $('#sidebar-button');
+    $button2 = $('#sidebar-button2');
+    $button2.on('click', toggleMenu);
+    $button.on('click', toggleMenu);
+
+  function toggleMenu() {
+      $sidebar.toggle();
+    	$content.toggleClass('full-width');
+  }
+
+  </script>
+
+  </body>
+</html>

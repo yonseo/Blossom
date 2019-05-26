@@ -1,3 +1,3 @@
 # Blossom
 Admin Dashboard in bootstrap.
-![alt text](http://url/to/img.png)
+![alt text](https://raw.githubusercontent.com/yonseo/blossom/master/preview.png)
